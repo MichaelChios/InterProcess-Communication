@@ -21,7 +21,7 @@ int main() {
     
     // Create 4 child processes
 	for(n=0;n<4;n++) {
-		// After the first child process, change the limits for sum calculation
+	// After the first child process, change the limits for sum calculation
 	    if(n>0){
 		    j+=N/4;
 		    w+=N/4;
