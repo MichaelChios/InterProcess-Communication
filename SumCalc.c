@@ -3,12 +3,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <sys/types.h>
+#include <sys/wait.h>
 
 int main() {
     int sums[4];
     int sum=0, j = 1, n, i, N;
     
-    printf("Give N:");
+    printf("Give N:\n");
     scanf("%d", &N);
     
     int w = N/4;
